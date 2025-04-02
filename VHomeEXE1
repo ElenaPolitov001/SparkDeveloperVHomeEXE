@@ -1,0 +1,19 @@
+📁 pranayama_audio_db
+├── 📁 src
+│   ├── 📁 main
+│   │   ├── 📁 scala
+│   │   │   ├── 📄 GraphXApp.scala
+│   │   │   └── 📄 Neo4jConnector.scala
+│   │   └── 📁 python
+│   │       ├── 📄 audio_processing.py
+│   │       └── 📄 database_manager.py
+│   └── 📁 test
+│       ├── 📁 scala
+│       │   └── 📄 GraphXAppTest.scala
+│       └── 📁 python
+│           └── 📄 test_audio_processing.py
+├── 📁 data
+│   ├── 📄 breath_recordings.csv
+│   └── 📄 metadata.json
+├── 📄 requirements.txt
+└── 📄 README.md
